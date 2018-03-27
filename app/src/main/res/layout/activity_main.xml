@@ -9,9 +9,17 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200px"
         android:id="@+id/camera_button"
         android:text="Gooooooooooooooooo"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_below="@+id/camera_button"
+        android:id="@+id/marker_button"
+        android:text="marker"
 
         />
 
